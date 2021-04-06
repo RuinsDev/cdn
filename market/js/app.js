@@ -52,6 +52,8 @@ var xzero_0x41a0 = function(e, t) {
             if (c == ' ขายแล้วรวม ') return ' Sudah Terjual ';
             if (c == ' ยืนยันถอนเงิน ') return ' Konfirmasi Penarikan ';
             if (c == 'รูปภาพ') return 'Gambar';
+            if (c == 'ถอนเงิน') return 'Penarikan';
+            if (c == 'คุณไม่มียอดเงิน') return 'Saldo tidak tersedia';
 
             return c
         }
